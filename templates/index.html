@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{% static 'css/ionicons.min.css' %}">
 
     <link rel="stylesheet" href="{% static 'css/bootstrap-datepicker.css' %}">
-    <!-- <link rel="stylesheet" href="{% static 'css/jquery.timepicker.css' %}"> -->
+    <link rel="stylesheet" href="{% static 'css/jquery.timepicker.css' %}">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-timepicker/1.13.18/jquery.timepicker.css" integrity="sha512-GgUcFJ5lgRdt/8m5A0d0qEnsoi8cDoF0d6q+RirBPtL423Qsj5cI9OxQ5hWvPi5jjvTLM/YhaaFuIeWCLi6lyQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <link rel="stylesheet" href="{% static 'css/flaticon.css' %}">
@@ -44,7 +44,7 @@
           <li class="nav-item"><a href="tour.html" class="nav-link">Tour</a></li>
           <li class="nav-item"><a href="hotel.html" class="nav-link">Hotels</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="{% url 'contact'%}" class="nav-link">Contact</a></li>
           <li class="nav-item cta"><a href="contact.html" class="nav-link"><span>Add listing</span></a></li>
         </ul>
       </div>
