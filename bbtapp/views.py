@@ -12,3 +12,6 @@ def contact(request):
 
 def tour(request):
         return render(request,"tour.html")  
+
+def blog(request):
+        return render(request,"blog.html")  
